@@ -111,7 +111,15 @@ section{position:relative;z-index:1;}
 .tldr-text strong{color:var(--text);font-weight:600;}
 
 .timeline{position:relative;padding-left:28px;}
-.timeline::before{content:'';position:absolute;left:0;top:8px;bottom:8px;width:1px;background:var(--border);}
+.timeline::before {
+  content: ''; 
+  position: absolute; 
+  left: 0; 
+  top: 8px; 
+  bottom: 8px; 
+  width: 1px; 
+  background: var(--border);
+}
 .tl-item{position:relative;padding-bottom:28px;}
 .tl-item::before{content:'';position:absolute;left:-32px;top:6px;width:8px;height:8px;border-radius:50%;background:var(--red);box-shadow:0 0 0 3px rgba(232,0,45,0.15);}
 .tl-date{font-size:12px;color:var(--muted);font-weight:500;letter-spacing:0.5px;margin-bottom:4px;}
@@ -559,15 +567,18 @@ footer{text-align:center;padding:40px 80px;border-top:1px solid var(--border);fo
       <p>It all started with an obsession with understanding how things work, not just using them. Growing up in Hyderabad, two seemingly unrelated things shaped my brain: the <span class="hl-s-yellow">precision engineering of Formula 1</span> and Spider-Man's philosophy that one person with the right tools can change everything.</p>
       <p>F1 taught me that milliseconds matter. <span class="hl-s-red">Latency, efficiency, optimization</span> aren't metrics, they're the difference between standing on the podium and watching from P4. Every backend I build carries that mindset: if it can be faster, it should be.</p>
       <p>Spider-Man taught me something else: responsibility. Every API, every service you deploy, someone depends on it. I build fault-tolerant systems not because it's a best practice, but because it's the right thing to do.</p>
-      <p>Now I'm at GRIET (CSE, 9.1 CGPA), shipping production-grade platforms, winning hackathons at <span class="hl-s-yellow">JP Morgan, IIT-Hyderabad, BITS Goa</span>, and looking for the team where I can build things that actually matter.</p>
+      <p>Now I'm at GRIET (CSE, 9.1 CGPA), shipping production-grade platforms, winning hackathons at <span class="hl-s-yellow">JP Morgan, IIT-Hyderabad, BITS Goa</span>. Currently, I'm a Programmer Analyst Trainee at Cognizant, continually sharpening my skills and aiming to be a backend engineer who builds things that actually matter. I also recently co-authored a published paper in IEEE Xplore.</p>
     </div>
   </div>
 
   <div class="tab-content" id="tldr">
     <div class="tldr-grid reveal">
+      <div class="tldr-item"><span class="tldr-emoji">💼</span><div class="tldr-text"><strong>Programmer Analyst Trainee @ Cognizant</strong> </div></div>
       <div class="tldr-item"><span class="tldr-emoji">🎓</span><div class="tldr-text"><strong>CS @ GRIET, Hyderabad</strong> - 9.1/10 CGPA, graduating June 2026</div></div>
+      <div class="tldr-item"><span class="tldr-emoji">💼</span><div class="tldr-text"><strong>App Developement Intern @ Neer Interactives</strong> </div></div>
       <div class="tldr-item"><span class="tldr-emoji">⚡</span><div class="tldr-text"><strong>Backend-first engineer</strong> - Java, Spring Boot, AWS, distributed systems, blockchain</div></div>
       <div class="tldr-item"><span class="tldr-emoji">🏆</span><div class="tldr-text"><strong>5× Hackathon Winner</strong> - JP Morgan Chase, IIT-Hyderabad, BITS Goa, GRIET and more</div></div>
+      <div class="tldr-item"><span class="tldr-emoji">📝</span><div class="tldr-text"><strong>Published Researcher</strong> - Co-authored paper in IEEE Xplore</div></div>
       <div class="tldr-item"><span class="tldr-emoji">🚀</span><div class="tldr-text"><strong>Shipped real products</strong> - 1,000+ rural farmers in production</div></div>
     </div>
   </div>
@@ -575,12 +586,14 @@ footer{text-align:center;padding:40px 80px;border-top:1px solid var(--border);fo
   <div class="tab-content" id="timeline">
     <div class="timeline reveal">
       <div class="tl-item"><div class="tl-date">NOV 2022</div><div class="tl-title">Enrolled in CS Engineering @ GRIET</div><div class="tl-sub">Hyderabad, started building things from day one</div></div>
+      <div class="tl-item"><div class="tl-date">PUBLISHED</div><div class="tl-title">IEEE Xplore Publication</div><div class="tl-sub">Co-authored and published research paper</div></div>
       <div class="tl-item"><div class="tl-date">SEP 2024</div><div class="tl-title">🏆 Won IIT-Hyderabad Hackathon</div><div class="tl-sub">Education-focused technology prototype, first big win</div></div>
       <div class="tl-item"><div class="tl-date">FEB 2025</div><div class="tl-title">🥉 TechXcelerate, BITS Goa &nbsp;+&nbsp; 🏆 Epitome, GRIET</div><div class="tl-sub">Two hackathons, same month, mental health app (3rd) &amp; autism support app (winner)</div></div>
       <div class="tl-item"><div class="tl-date">MAR 2025</div><div class="tl-title">Shipped AI Decentralized Social Media App</div><div class="tl-sub">IPFS + Blockchain + NLP, full distributed system from scratch</div></div>
       <div class="tl-item"><div class="tl-date">MAY – JUL 2025</div><div class="tl-title">App Dev Intern @ Neer Interactives</div><div class="tl-sub">Flutter livestock management for 1,000+ rural cattle owners · 70% faster onboarding</div></div>
       <div class="tl-item"><div class="tl-date">JUN 2025</div><div class="tl-title">🏆 JP Morgan Chase Code for Good — Winner</div><div class="tl-sub">Led 7-member team to production-grade solution in 24 hours</div></div>
       <div class="tl-item"><div class="tl-date">SEP 2025</div><div class="tl-title">Shipped AuraVerse</div><div class="tl-sub">AI Genie inside VR · AWS Lambda + S3 · reduced latency by 70%</div></div>
+      <div class="tl-item"><div class="tl-date">JAN – JUN 2026</div><div class="tl-title">Programmer Analyst Trainee @ Cognizant</div><div class="tl-sub">Led full-stack development of ConnectEase, an AI-powered platform</div></div>
       <div class="tl-item"><div class="tl-date">2026 →</div><div class="tl-title">Next chapter loading…</div><div class="tl-sub">Actively seeking SDE / Backend / Full-Stack roles - let's build</div></div>
     </div>
   </div>
@@ -589,6 +602,7 @@ footer{text-align:center;padding:40px 80px;border-top:1px solid var(--border);fo
 <div class="skills-strip">
   <div class="skills-row reveal">
     <span class="skill-chip">Java</span><span class="skill-chip">Spring Boot</span><span class="skill-chip">AWS (EC2, S3, Lambda)</span><span class="skill-chip">Flutter / Dart</span><span class="skill-chip">React + Redux</span><span class="skill-chip">PostgreSQL</span><span class="skill-chip">Firebase</span><span class="skill-chip">Docker</span><span class="skill-chip">RESTful APIs</span><span class="skill-chip">Blockchain / Solidity</span><span class="skill-chip">Python</span><span class="skill-chip">Unity 3D</span><span class="skill-chip">NLP / ML</span><span class="skill-chip">CI/CD</span><span class="skill-chip">IVR</span>
+    <span class="skill-chip">Claude API</span><span class="skill-chip">Vector Embeddings</span><span class="skill-chip">RAG Pipelines</span><span class="skill-chip">TestNG</span><span class="skill-chip">Selenium</span><span class="skill-chip">Angular</span><span class="skill-chip">MySQL</span><span class="skill-chip">C</span><span class="skill-chip">JavaScript</span><span class="skill-chip">SQLite</span><span class="skill-chip">HTML / CSS</span><span class="skill-chip">sentence-transformers</span><span class="skill-chip">BAAI Embeddings</span>
   </div>
 </div>
 
@@ -601,6 +615,42 @@ footer{text-align:center;padding:40px 80px;border-top:1px solid var(--border);fo
 <section class="projects-section" id="projects">
   <div class="section-label reveal">Selected Work</div>
   <div class="projects-grid">
+
+    <a href="https://github.com/venkat-vamsi/TalentSearch" class="project-card reveal">
+      <div class="pc-header aura">
+        <div class="pc-tech-overlay"><span class="tc">Claude API</span><span class="tc">Python</span><span class="tc">scikit-learn</span><span class="tc">BAAI Embeddings</span></div>
+        <span class="pc-emoji">🔍</span>
+      </div>
+      <div class="pc-body">
+        <div class="pc-meta"><span class="pc-date">March 2026</span><span class="pc-badge b-aws">AI / RAG</span></div>
+        <div class="pc-name">Talent Search</div>
+        <p class="pc-desc">Built a 5-layer RAG pipeline over 1,732 resumes combining TF-IDF retrieval, semantic vector embeddings, and LLM re-ranking. Reduced response time from 60s to under 5s.</p>
+        <div class="pc-stats">
+          <div><div class="stat-num">&lt;5s</div><div class="stat-label">Response Time</div></div>
+          <div><div class="stat-num">5-layer</div><div class="stat-label">RAG Pipeline</div></div>
+          <div><div class="stat-num">LLM</div><div class="stat-label">Re-ranking</div></div>
+        </div>
+        <div class="pc-arrow">View Project →</div>
+      </div>
+    </a>
+
+    <a href="https://github.com/venkat-vamsi/ConnectEase" class="project-card reveal">
+      <div class="pc-header decen">
+        <div class="pc-tech-overlay"><span class="tc">Angular</span><span class="tc">Spring Boot</span><span class="tc">MySQL</span></div>
+        <span class="pc-emoji">🤝</span>
+      </div>
+      <div class="pc-body">
+        <div class="pc-meta"><span class="pc-date">Jan - Jun 2026</span><span class="pc-badge b-java">Community</span></div>
+        <div class="pc-name">ConnectEase</div>
+        <p class="pc-desc">A community-based platform helping new migrants find local vendors and services. Includes an AI bot that returns an SQL query for every user query to assist in finding vendors.</p>
+        <div class="pc-stats">
+          <div><div class="stat-num">AI</div><div class="stat-label">Bot</div></div>
+          <div><div class="stat-num">SQL</div><div class="stat-label">Query Generation</div></div>
+          <div><div class="stat-num">NLP</div><div class="stat-label">Summarization</div></div>
+        </div>
+        <div class="pc-arrow">View Project →</div>
+      </div>
+    </a>
 
     <a href="https://github.com/venkat-vamsi/Good-Doctor" class="project-card reveal">
       <div class="pc-header aura">
@@ -710,6 +760,21 @@ footer{text-align:center;padding:40px 80px;border-top:1px solid var(--border);fo
 
 <section class="experience-section" id="experience">
   <div class="section-label reveal">Experience</div>
+  
+  <div class="exp-card reveal">
+    <div class="exp-logo">⚙️</div>
+    <div class="exp-content">
+      <h3>Cognizant</h3>
+      <div class="exp-role">Programmer Analyst Trainee · Chennai, India</div>
+      <ul class="exp-points">
+        <li>Led as Pod Lead in full-stack development of ConnectEase, a community-based platform helping new migrants find local vendors and services.</li>
+        <li>Developed an AI bot that returns an SQL query for every user query to help find vendors.</li>
+        <li>Designed comprehensive test suite for HR Management System validating 78 REST API endpoints using RestAssured, Selenium, and TestNG.</li>
+      </ul>
+    </div>
+    <span class="exp-date">Jan 2026 – Jun 2026</span>
+  </div>
+
   <div class="exp-card reveal">
     <div class="exp-logo">🌿</div>
     <div class="exp-content">
@@ -726,6 +791,19 @@ footer{text-align:center;padding:40px 80px;border-top:1px solid var(--border);fo
   </div>
 </section>
 
+<section class="awards-section" id="publications">
+  <div class="section-label reveal">Publications</div>
+  <div class="awards-grid" style="grid-template-columns: 1fr;">
+    <a href="https://ieeexplore.ieee.org/document/11497214" target="_blank" class="award-card reveal" style="text-decoration: none; color: inherit; display: block; padding: 32px;">
+      <div class="award-icon" style="font-size: 32px; margin-bottom: 16px;">📄</div>
+      <div class="award-title" style="font-size: 20px; margin-bottom: 8px;">AI-Powered Decentralized Social Media Application using Ethereum</div>
+      <div class="award-sub" style="margin-bottom: 16px; color: var(--red); font-weight: 500;">IEEE Xplore • Published at ICOECIT 2026</div>
+      <p style="font-size: 15px; color: var(--muted); line-height: 1.7; font-weight: 300; max-width: 900px;">
+        This research focuses on improving user privacy and data ownership in social media. By combining Ethereum smart contracts with on-device NLP models, the project enables users to handle content moderation independently, without relying on a centralized platform.
+      </p>
+    </a>
+  </div>
+</section>
 <section class="awards-section" id="awards">
   <div class="section-label reveal">Awards &amp; Recognition</div>
   <div class="awards-grid">
@@ -776,7 +854,7 @@ footer{text-align:center;padding:40px 80px;border-top:1px solid var(--border);fo
     <a href="https://www.linkedin.com/in/venkat-vamsi-godavarthi-964555254/" target="_blank" class="cl cl-secondary">LinkedIn ↗</a>
     <a href="https://github.com/venkat-vamsi" target="_blank" class="cl cl-secondary">GitHub ↗</a>
     <a href="https://leetcode.com/u/vamsi_codes/" target="_blank" class="cl cl-secondary">LeetCode ↗</a>
-    <a href="https://drive.google.com/file/d/1R9i-r665pZR7z4EwnQ1Wbloyb_hYFRx5/view?usp=sharing" target="_blank" class="cl cl-secondary"> Resume ↗ </a>
+    <a href="https://drive.google.com/file/d/1Jqmbtv9famkLzXnb31gHVjxCeZo7YUdr/view?usp=drive_link" target="_blank" class="cl cl-secondary"> Resume ↗ </a>
   </div>
 </section>
 
